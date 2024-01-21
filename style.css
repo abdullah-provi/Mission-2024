@@ -10,7 +10,7 @@ h1{
     font-size: 70px;
     border-left: 4px solid #FF5959;
     font-family: 'Yeseva One', serif;
-    padding: 20px;
+    padding-left: 20px;
     
 }
 
@@ -27,10 +27,10 @@ h1{
  p{
     font-family: 'Poppins', sans-serif;
     display: block;
-    margin-block-start: 1em;
+    /* margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-end: 0px; */
     font-size: 18px;
     color: #3e3e3e;
    }
@@ -44,6 +44,7 @@ h1{
     display: flex;
     flex-direction: column;
     padding-right:10%;
+    gap: 20px;
       
 }
 .child-1 button  {
@@ -76,13 +77,13 @@ h1{
     padding-bottom: 48px;
 }
 
-    h2{
+h2{
      display: block;
     font-size: 1.5em;
-    margin-block-start: 0.83em;
+    /* margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-end: 0px; */
     font-weight: bold;
 }
 section.section-2{
@@ -140,7 +141,7 @@ section.section-2{
 .section-3-right-part{
     width: 654px;
 }
-.section-3-4-title{
+.section-3-4-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -164,6 +165,8 @@ a.link-button{
     font-size: 16px;
     padding: 12px 37.5px;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 /* section-4 */
 .child-5{
@@ -188,3 +191,57 @@ a.link-button{
     text-align: center;
     padding-bottom: 50px;
 }
+/* section-6 */
+
+.child-8{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    margin-bottom: 25px;
+   
+}
+input{
+    width: 379px;
+    height: 65px;
+    margin-bottom: 25px;
+    margin-right: 100px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    font-size: 20px;
+}
+#submit-button{
+    width: 407px;
+    background-color: #FF5959;
+    color: #ffffff;
+    font-size: 21px;
+    
+
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px ;
+   
+}
+.footer h2 {
+    font-family:  'Lobster', cursive;
+    font-size: 36px;
+    color: white;
+}
+ .footer-color{
+    color:#FF5959;
+ }
+ .footer p{
+    color: #D9DBE1;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    
+    
+ }
